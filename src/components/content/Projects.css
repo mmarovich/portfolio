@@ -1,0 +1,124 @@
+.projects-container {
+    width: 100%;
+}
+
+.projects-title {
+    text-align: center;
+}
+
+.politikos-container {
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    border-bottom: thick solid gray;
+}
+
+.politikosImage-container {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+}
+
+.politikos-title {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 110px;
+    font-weight: bold;
+    color: gray;
+    mix-blend-mode: difference;
+}
+
+.politikos-subtitle {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+    mix-blend-mode: difference;
+}
+
+.politikosImage-container > img {
+    width: 100%;
+}
+
+.politikos-img {
+    margin: auto;
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+
+.politikos-description {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px 10px 10px;
+    text-align: left;
+}
+
+.whether-container {
+    width: 100%;
+    text-align: center;
+}
+
+.whetherImage-container {
+    display: inline-block;
+    background-color: red;
+    width: 70%;
+}
+
+.whether-img {
+    margin: auto;
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+
+.whether-description {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px 10px 10px;
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+    .politikos-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .politikosImage-container {
+        display: block;
+        width: 100%;
+    }
+
+    .politikos-description {
+        display: block;
+        margin: auto;
+        width: 75%;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 10px 10px 10px;
+        text-align: left;
+    }
+
+    .politikos-title {
+        font-size: 50px;
+    }
+
+    .politikos-subtitle {
+        font-size: 25px;
+    }
+}

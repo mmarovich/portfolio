@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+  z-index: -5;
+}
+
+/*img {
+  position: fixed;
+  height: 200%;
+  width: 150%;
+  top: 0;
+  left: 0;
+  animation: Background-spin infinite 120s linear;
+  z-index: -4;
+}*/
+
+@keyframes Background-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

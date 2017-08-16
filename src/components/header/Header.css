@@ -1,0 +1,44 @@
+.title-container {
+	color: black;
+    text-align: center;
+	font-family: Chonburi, cursive;
+	height: 100%;
+	position: relative;
+}
+
+.title {
+	letter-spacing: 8px;
+    font-size: 30px;
+}
+
+.logo {
+	position: absolute;
+	right: 50%;
+    z-index: -1;
+	animation: pulse 6s infinite alternate;
+	height: 65px;
+	transform-origin: center;
+}
+
+@keyframes pulse{
+		from {
+			transform: scale(.9) rotate(0deg);
+		}
+		to { 
+			transform: scale(1.1) rotate(10deg);
+		}
+}
+
+@media screen and (max-width: 650px) {
+    .title {
+	letter-spacing: normal;
+    font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+    .title {
+	letter-spacing: normal;
+    font-size: 20px;
+	}
+}

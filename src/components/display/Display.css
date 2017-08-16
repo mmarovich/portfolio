@@ -1,0 +1,24 @@
+.display {
+    position: relative;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.socrates {
+    font-size: 20px;
+    text-align: center;
+    color: lightgray;
+}
+
+.image-container {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.max {
+    height: 100%;
+    border-radius: 50%;
+}
