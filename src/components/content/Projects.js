@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
 import flag from '../../assets/images/flag-USA.png'
+import WhetherYouLike from '../../assets/images/WhetherYouLikeRevised.png'
 
 import './Projects.css';
 
@@ -16,13 +17,15 @@ export default class Projects extends Component {
                 <div className="projects-title">
                     <h1>Projects</h1>
                 </div>
-                <ScrollableAnchor id="politikos">
+                
                 <div className="politikos-container">
+                    <ScrollableAnchor id="politikos">
                     <div className="politikosImage-container">
                         <img src={flag} />
                         <h1 className="politikos-title">Politikos</h1>
                         <p className="politikos-subtitle">Be involved, educate, and influence</p>
                     </div>
+                    </ScrollableAnchor>
                     <div className="politikos-description">
                         <p>Politikos is a project inspired by the current political climate in the world.
                             With an objective to create more informed citizens with an emphasis on fact-checking,
@@ -35,12 +38,13 @@ export default class Projects extends Component {
                         </p>
                     </div>
                 </div>
-                </ScrollableAnchor>
-                <ScrollableAnchor id="whether">
+                
                 <div className="whether-container">
+                    <ScrollableAnchor id="whether">
                     <div className="whetherImage-container">
-                        <div className="whether-img"></div>
+                        <img className="whether-img" src={WhetherYouLike} />
                     </div>
+                    </ScrollableAnchor>
                     <div className="whether-description">
                         <p>WhetherYouLike was a project that I started with the simple task of displaying both
                             Celcius and Fahrenheight on the same page. As I learned more it become a project to 
@@ -54,7 +58,6 @@ export default class Projects extends Component {
                         </p>
                     </div>
                 </div>
-                </ScrollableAnchor>
             </div>
         )
     }

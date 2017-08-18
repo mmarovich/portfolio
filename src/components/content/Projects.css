@@ -7,7 +7,7 @@
 }
 
 .politikos-container {
-    padding-bottom: 50px;
+    padding: 50px 0;
     width: 100%;
     text-align: center;
     border-bottom: thick solid gray;
@@ -59,26 +59,25 @@
     font-family: sans-serif;
     font-size: 15px;
     font-weight: bold;
-    padding: 0 10px 10px 10px;
+    padding: 10px;
     text-align: left;
 }
 
 .whether-container {
+    padding: 50px 0;
     width: 100%;
     text-align: center;
 }
 
 .whetherImage-container {
     display: inline-block;
-    background-color: red;
     width: 70%;
 }
 
 .whether-img {
     margin: auto;
-    background-color: brown;
-    height: 200px;
-    width: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .whether-description {
@@ -88,16 +87,11 @@
     font-family: sans-serif;
     font-size: 15px;
     font-weight: bold;
-    padding: 0 10px 10px 10px;
+    padding: 10px;
     text-align: left;
 }
 
 @media screen and (max-width: 900px) {
-    .politikos-container {
-        width: 100%;
-        text-align: center;
-    }
-
     .politikosImage-container {
         display: block;
         width: 100%;
@@ -107,11 +101,6 @@
         display: block;
         margin: auto;
         width: 75%;
-        font-family: sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        padding: 0 10px 10px 10px;
-        text-align: left;
     }
 
     .politikos-title {
@@ -120,5 +109,16 @@
 
     .politikos-subtitle {
         font-size: 25px;
+    }
+    
+    .whetherImage-container {
+        display: inline-block;
+        width: 70%;
+    }
+
+    .whether-description {
+        display: block;
+        margin: auto;
+        width: 75%;
     }
 }

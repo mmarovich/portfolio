@@ -50,9 +50,9 @@ class Header extends Component {
           titleStyle={{ height: '100%' }}
           title={<div className="title-container">
             <p className="title">Maxwell Marovich</p>
-            {/* <img src={logo} className="logo" alt="logo" /> */}
           </div>}
           showMenuIconButton={false}
+          iconStyleRight={{marginRight: '0'}}
           iconElementRight={
             <div>
               <FlatButton
