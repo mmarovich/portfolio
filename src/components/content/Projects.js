@@ -47,7 +47,7 @@ export default class Projects extends Component {
                     </ScrollableAnchor>
                     <div className="whether-description">
                         <p>WhetherYouLike was a project that I started with the simple task of displaying both
-                            Celcius and Fahrenheight on the same page. As I learned more it become a project to 
+                            Celsius and Fahrenheight on the same page. As I learned more it become a project to 
                             fully customize one's background on their mobile device.  The project is currently 
                             being converted to the React Native mobile language (thoughts of beginning a Kotlin
                             migration are also on the horizon).
