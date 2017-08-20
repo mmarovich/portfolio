@@ -20,11 +20,11 @@ export default class Projects extends Component {
                 
                 <div className="politikos-container">
                     <ScrollableAnchor id="politikos">
-                    <div className="politikosImage-container">
-                        <img src={flag} />
+                    <a href="https://politikos.herokuapp.com/"><div className="politikosImage-container">
+                    <img src={flag} />
                         <h1 className="politikos-title">Politikos</h1>
                         <p className="politikos-subtitle">Be involved, educate, and influence</p>
-                    </div>
+                    </div></a>
                     </ScrollableAnchor>
                     <div className="politikos-description">
                         <p>Politikos is a project inspired by the current political climate in the world.
@@ -42,7 +42,7 @@ export default class Projects extends Component {
                 <div className="whether-container">
                     <ScrollableAnchor id="whether">
                     <div className="whetherImage-container">
-                        <img className="whether-img" src={WhetherYouLike} />
+                        <a href="https://whetheryoulike.herokuapp.com/"><img className="whether-img" src={WhetherYouLike} /></a>
                     </div>
                     </ScrollableAnchor>
                     <div className="whether-description">
