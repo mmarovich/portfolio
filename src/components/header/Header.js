@@ -71,6 +71,7 @@ class Header extends Component {
                 <Menu>
                   <MenuItem href="#politikos" primaryText="Politikos" />
                   <MenuItem href="#whether" primaryText="Whether" />
+                  <MenuItem href="#war" primaryText="War: The Card Game" />
                 </Menu>
               </Popover>
             </div>
