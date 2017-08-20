@@ -54,8 +54,8 @@ export default class Projects extends Component {
                     <div className="whether-description">
                         <p>
                             WhetherYouLike was a project that I started with the simple task of displaying both
-                            Celsius and Fahrenheight on the same page. As I learned more it become a project to
-                            fully customize one's background on their mobile device.  The project is currently
+                            Celsius and Fahrenheight on the same page. As I learned more it became a project to
+                            fully customize the background on my mobile device.  The project is currently
                             being converted to the React Native mobile language (thoughts of beginning a Kotlin
                             migration are also on the horizon).
                         </p>
@@ -83,11 +83,11 @@ export default class Projects extends Component {
                             drawn cards.  A tie results in a higher wager of cards for the next round.
                         </p>
                         <p>
-                            There is a lot of messiness in the code.  There are no promises, which means there are
-                            a lot of nested callbacks.  A big no-no in the coding world.  Furthermore, to a keener
-                            eye, there is also an ambiguous bug with an interesting result... but I won't give away any
-                            spoilers.  I love this project, and it is a perfect demonstration and reminder of how
-                            far I've come in such a short amount of time.
+                            There is a lot of messiness in the code.  This project gave me a great understanding of 
+                            asynchronicity and 'callback hell' and the reasons why techniques such as promises are needed 
+                            to tame it.  The mistakes that I made here were important mistakes to make, and I believe 
+                            the skills and best practices that I have today would not be the same without this awesome, 
+                            neat game. It is the perfect reminder of how far I've come in such a short amount of time.
                         </p>
                     </div>
                 </div>
