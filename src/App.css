@@ -10,10 +10,10 @@
 
 .App > img {
   position: fixed;
-  height: 250%;
-  width: 150%;
-  top: -75%;
-  left: -25%;
+  height: 300%;
+  width: 230%;
+  top: -100%;
+  left: -65%;
   animation: Background-spin infinite 120s linear;
   z-index: -4;
 }
