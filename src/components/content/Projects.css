@@ -6,11 +6,20 @@
     text-align: center;
 }
 
+.project-title {
+    text-align: center;
+}
+
+.project-title > h2 {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
+
 .politikos-container {
-    padding: 50px 0;
+    padding: 50px 3%;
     width: 100%;
     text-align: center;
-    border-bottom: thick solid gray;
+    border-bottom: thin solid gray;
 }
 
 .politikosImage-container {
@@ -64,10 +73,10 @@
 }
 
 .whether-container {
-    padding: 50px 0;
+    padding: 50px 3%;
     width: 100%;
     text-align: center;
-    border-bottom: thick solid gray;
+    border-bottom: thin solid gray;
 }
 
 .whetherImage-container {
@@ -93,10 +102,10 @@
 }
 
 .war-container {
-    padding: 50px 0;
+    padding: 50px 3%;
     width: 100%;
     text-align: center;
-    border-bottom: thick solid gray;
+    border-bottom: thin solid gray;
 }
 
 .warImage-container {
@@ -119,6 +128,11 @@
     font-weight: bold;
     padding: 10px;
     text-align: left;
+}
+
+.skills-used {
+    font-size: 13px;
+    font-style: italic;
 }
 
 @media screen and (max-width: 900px) {

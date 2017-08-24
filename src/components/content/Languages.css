@@ -7,7 +7,12 @@
     text-align: center;
 }
 
-.svg-container {
+.icon-container > img {
+    width: 100%;
+    max-height: 100px;
+}
+
+.icon-container {
     display: inline-block;
     width: 16%;
     padding: 20px;
@@ -21,6 +26,10 @@ svg {
 
 @media screen and (max-width: 560px) {
     .svg-container {
+        width: 33%;
+    }
+
+    .icon-container {
         width: 33%;
     }
 }

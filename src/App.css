@@ -9,20 +9,19 @@
 }
 
 .App > img {
-  position: fixed;
-  height: 300%;
-  width: 230%;
-  top: -100%;
-  left: -65%;
-  animation: Background-spin infinite 120s linear;
+  position: absolute;
+  width: 100%;
+  min-height: 300px;
+  max-height: 450px;
+  top: 90px;
   z-index: -4;
 }
 
 
-@keyframes Background-spin {
+/* @keyframes Background-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
 
 
 .App-header {

@@ -85,7 +85,7 @@ class Header extends Component {
 const styles = {
   appBar: {
     zIndex: '0',
-    backgroundColor: '#E1F5FE',
+    backgroundColor: 'white',
     height: '90px',
     padding: '10px 10px 0 0'
   },

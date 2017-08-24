@@ -29,6 +29,7 @@ export default class Projects extends Component {
                         </div></a>
                     </ScrollableAnchor>
                     <div className="politikos-description">
+                    <div className="project-title"><h2>Politikos</h2></div>
                         <p>
                             Politikos is a project inspired by the current political climate in the world.
                             With an objective to create more informed citizens with an emphasis on fact-checking,
@@ -40,6 +41,8 @@ export default class Projects extends Component {
                             representatives are, and collaborate with others about their actions.  In the future
                             I want to create features for tracking, anticipating, and influencing their actions.
                         </p>
+                        <p className="skills-used">Skills used: React.js, Node.js, Typescript</p>
+                        <p className="skills-used">Libraries & APIs: Google Civics and Geocoding API, Material UI</p>
                     </div>
                 </div>
 
@@ -52,6 +55,7 @@ export default class Projects extends Component {
                         </div>
                     </ScrollableAnchor>
                     <div className="whether-description">
+                    <div className="project-title"><h2>WhetherYouLike</h2></div>
                         <p>
                             WhetherYouLike was a project that I started with the simple task of displaying both
                             Celsius and Fahrenheight on the same page. As I learned more it became a project to
@@ -64,6 +68,8 @@ export default class Projects extends Component {
                             and drag that information around on the screen.  After doing this, they can save their
                             settings and positions.
                         </p>
+                        <p className="skills-used">Skills used: React.js, Node.js, Typescript</p>
+                        <p className="skills-used">Libraries & APIs: Weather Underground API, Google Geocoding API, Material UI</p>
                     </div>
                 </div>
                 <div className="war-container">
@@ -75,6 +81,7 @@ export default class Projects extends Component {
                         </div>
                     </ScrollableAnchor>
                     <div className="war-description">
+                    <div className="project-title"><h2>War!</h2></div>
                         <p>
                             This is one of my first projects during the very beginning of learning javascript.
                             This is a digital rendition of <a href="https://en.wikipedia.org/wiki/War_(card_game)">
@@ -89,6 +96,8 @@ export default class Projects extends Component {
                             the skills and best practices that I have today would not be the same without this awesome, 
                             neat game. It is the perfect reminder of how far I've come in such a short amount of time.
                         </p>
+                        <p className="skills-used">Skills used: HTML/CSS, Javascript</p>
+                        <p className="skills-used">Libraries & APIs: Deck of Cards API, Jquery</p>
                     </div>
                 </div>
             </div>

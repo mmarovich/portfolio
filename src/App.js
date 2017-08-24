@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import Display from './components/display/Display';
-import background from '../src/assets/images/space.png';
+import background from '../src/assets/images/PortfolioBGImage.jpg';
 import Content from './components/content/Content';
 
 class App extends Component {
