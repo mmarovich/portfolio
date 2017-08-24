@@ -1,11 +1,16 @@
 {
-  "main.css": "static/css/main.64d37bf1.css",
-  "main.css.map": "static/css/main.64d37bf1.css.map",
-  "main.js": "static/js/main.3ac3bbdf.js",
-  "main.js.map": "static/js/main.3ac3bbdf.js.map",
+  "main.css": "static/css/main.91822ff0.css",
+  "main.css.map": "static/css/main.91822ff0.css.map",
+  "main.js": "static/js/main.965914c2.js",
+  "main.js.map": "static/js/main.965914c2.js.map",
+  "static\\media\\PortfolioBGImage.jpg": "static/media/PortfolioBGImage.a0bf21ab.jpg",
   "static\\media\\War.png": "static/media/War.dc5bddd1.png",
   "static\\media\\WhetherYouLikeRevised.png": "static/media/WhetherYouLikeRevised.3846e038.png",
   "static\\media\\flag-USA.png": "static/media/flag-USA.13e0efaf.png",
+  "static\\media\\html.png": "static/media/html.53b9cc8c.png",
+  "static\\media\\javascript.png": "static/media/javascript.867514ca.png",
   "static\\media\\logo.svg": "static/media/logo.10e5119c.svg",
-  "static\\media\\space.png": "static/media/space.7ba73929.png"
+  "static\\media\\nodejs.png": "static/media/nodejs.1b24ed3d.png",
+  "static\\media\\react.png": "static/media/react.206c8110.png",
+  "static\\media\\typescript.png": "static/media/typescript.bc175748.png"
 }
