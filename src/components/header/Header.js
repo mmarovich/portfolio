@@ -52,12 +52,9 @@ class Header extends Component {
             <p className="title">Maxwell Marovich</p>
           </div>}
           showMenuIconButton={false}
-          iconStyleRight={{marginRight: '0'}}
+          iconStyleRight={{ marginRight: '0' }}
           iconElementRight={
             <div>
-              <FlatButton
-                href="#contact"
-                label="Contact" />
               <FlatButton
                 onTouchTap={this.handleTouchTap}
                 label="Projects" />
@@ -74,6 +71,9 @@ class Header extends Component {
                   <MenuItem href="#war" primaryText="War: The Card Game" />
                 </Menu>
               </Popover>
+              <FlatButton
+                href="#contact"
+                label="Contact" />
             </div>
           }
         />

@@ -22,14 +22,16 @@ export default class Projects extends Component {
 
                 <div className="politikos-container">
                     <ScrollableAnchor id="politikos">
-                        <a href="https://politikos.herokuapp.com/"><div className="politikosImage-container">
-                            <img src={flag} />
-                            <h1 className="politikos-title">Politikos</h1>
-                            <p className="politikos-subtitle">Be involved, educate, and influence</p>
-                        </div></a>
+                        <div className="politikosImage-container">
+                            <a href="https://politikos.herokuapp.com/">
+                                <img className="politikos-img" src={flag} />
+                                <h1 className="politikos-title">Politikos</h1>
+                                <p className="politikos-subtitle">Be involved, educate, and influence</p>
+                            </a>
+                        </div>
                     </ScrollableAnchor>
                     <div className="politikos-description">
-                    <div className="project-title"><h2>Politikos</h2></div>
+                        <div className="project-title"><h2>Politikos</h2></div>
                         <p>
                             Politikos is a project inspired by the current political climate in the world.
                             With an objective to create more informed citizens with an emphasis on fact-checking,
@@ -55,7 +57,7 @@ export default class Projects extends Component {
                         </div>
                     </ScrollableAnchor>
                     <div className="whether-description">
-                    <div className="project-title"><h2>WhetherYouLike</h2></div>
+                        <div className="project-title"><h2>WhetherYouLike</h2></div>
                         <p>
                             WhetherYouLike was a project that I started with the simple task of displaying both
                             Celsius and Fahrenheight on the same page. As I learned more it became a project to
@@ -81,7 +83,7 @@ export default class Projects extends Component {
                         </div>
                     </ScrollableAnchor>
                     <div className="war-description">
-                    <div className="project-title"><h2>War!</h2></div>
+                        <div className="project-title"><h2>War!</h2></div>
                         <p>
                             This is one of my first projects during the very beginning of learning javascript.
                             This is a digital rendition of <a href="https://en.wikipedia.org/wiki/War_(card_game)">
@@ -90,10 +92,10 @@ export default class Projects extends Component {
                             drawn cards.  A tie results in a higher wager of cards for the next round.
                         </p>
                         <p>
-                            There is a lot of messiness in the code.  This project gave me a great understanding of 
-                            asynchronicity and 'callback hell' and the reasons why techniques such as promises are needed 
-                            to tame it.  The mistakes that I made here were important mistakes to make, and I believe 
-                            the skills and best practices that I have today would not be the same without this awesome, 
+                            There is a lot of messiness in the code.  This project gave me a great understanding of
+                            asynchronicity and 'callback hell' and the reasons why techniques such as promises are needed
+                            to tame it.  The mistakes that I made here were important mistakes to make, and I believe
+                            the skills and best practices that I have today would not be the same without this awesome,
                             neat game. It is the perfect reminder of how far I've come in such a short amount of time.
                         </p>
                         <p className="skills-used">Skills used: HTML/CSS, Javascript</p>
