@@ -23,7 +23,7 @@ class Header extends Component {
         vertical: 'bottom',
       },
       targetOrigin: {
-        horizontal: 'right',
+        horizontal: 'middle',
         vertical: 'top',
       },
       width: ''

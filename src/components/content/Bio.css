@@ -12,8 +12,8 @@
 .introduction {
     font-family: sans-serif;
     font-size: 15px;
-    font-weight: bold;
-    line-height: 145%;
+    /* font-weight: bold; */
+    line-height: 160%;
 }
 
 .description {
@@ -24,7 +24,8 @@
 
 @media screen and (min-width: 1000px) {
     .introduction {
-        width: 85%;
+        width: 70%;
         min-width: 400px;
+        margin:auto;
     }
 }
