@@ -17,7 +17,9 @@ export default class Projects extends Component {
         return (
             <div className="projects-container">
                 <div className="projects-title">
-                    <h1>Projects</h1>
+                    <ScrollableAnchor id="projects">
+                        <h1>Projects</h1>
+                    </ScrollableAnchor>
                 </div>
 
                 <div className="politikos-container">

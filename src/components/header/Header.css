@@ -1,6 +1,5 @@
 .title-container {
 	color: black;
-    text-align: center;
 	font-family: Chonburi, cursive;
 	height: 100%;
 	position: relative;
@@ -30,13 +29,6 @@
 }
 
 @media screen and (max-width: 650px) {
-    .title {
-	letter-spacing: normal;
-    font-size: 30px;
-	}
-}
-
-@media screen and (max-width: 520px) {
     .title {
 	letter-spacing: normal;
     font-size: 20px;

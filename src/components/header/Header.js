@@ -5,6 +5,7 @@ import FlatButton from 'material-ui/FlatButton';
 import DropDownMenu from 'material-ui/DropDownMenu';
 import { MenuItem, Menu } from 'material-ui/Menu';
 import Popover from 'material-ui/Popover/Popover';
+// import TiThMenu from 'react-icons/lib/ti/th-menu'
 
 import './Header.css'
 import logo from '../../assets/images/logo.svg'
@@ -12,6 +13,8 @@ import logo from '../../assets/images/logo.svg'
 class Header extends Component {
   constructor(props) {
     super(props);
+
+    this.updateDimensions = this.updateDimensions.bind(this)
 
     this.state = {
       open: false,
@@ -23,8 +26,22 @@ class Header extends Component {
         horizontal: 'right',
         vertical: 'top',
       },
+      width: ''
     };
 
+  }
+
+  updateDimensions() {
+    this.setState({ width: window.innerWidth });
+  }
+
+  componentDidMount() {
+    this.updateDimensions();
+    window.addEventListener("resize", this.updateDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateDimensions);
   }
 
   handleRequestClose = () => {
@@ -43,42 +60,77 @@ class Header extends Component {
   };
 
   render() {
-    return (
-      <div className="header">
-        <AppBar
-          style={styles.appBar}
-          titleStyle={{ height: '100%' }}
-          title={<div className="title-container">
-            <p className="title">Maxwell Marovich</p>
-          </div>}
-          showMenuIconButton={false}
-          iconStyleRight={{ marginRight: '0' }}
-          iconElementRight={
-            <div>
-              <FlatButton
-                onTouchTap={this.handleTouchTap}
-                label="Projects" />
-              <Popover
-                open={this.state.open}
-                anchorEl={this.state.anchorEl}
-                anchorOrigin={this.state.anchorOrigin}
-                targetOrigin={this.state.targetOrigin}
-                onRequestClose={this.handleRequestClose}
-              >
-                <Menu>
-                  <MenuItem href="#politikos" primaryText="Politikos" />
-                  <MenuItem href="#whether" primaryText="Whether" />
-                  <MenuItem href="#war" primaryText="War: The Card Game" />
-                </Menu>
-              </Popover>
-              <FlatButton
-                href="#contact"
-                label="Contact" />
-            </div>
-          }
-        />
-      </div>
-    );
+    if (this.state.width < 450) {
+      return (
+        <div className="header">
+          <AppBar
+            style={styles.appBar}
+            titleStyle={{ height: '100%', lineHeight: '50px' }}
+            title={<div className="title-container">
+              <p className="title">Maxwell Marovich</p>
+            </div>}
+            showMenuIconButton={false}
+            iconStyleRight={{ marginRight: '0' }}
+            iconElementRight={
+              <div className="nav-buttons">
+                <FlatButton
+                  onTouchTap={this.handleTouchTap}
+                  label="Menu" />
+                <Popover
+                  open={this.state.open}
+                  anchorEl={this.state.anchorEl}
+                  anchorOrigin={this.state.anchorOrigin}
+                  targetOrigin={this.state.targetOrigin}
+                  onRequestClose={this.handleRequestClose}
+                >
+                  <Menu>
+                    <MenuItem href="#projects" primaryText="Projects" />
+                    <MenuItem href="#contact" primaryText="Contact" />
+                  </Menu>
+                </Popover>
+              </div>
+            }
+          />
+        </div>
+      );
+    } else {
+      return (
+        <div className="header">
+          <AppBar
+            style={styles.appBar}
+            titleStyle={{ height: '100%', lineHeight: '50px' }}
+            title={<div className="title-container">
+              <p className="title">Maxwell Marovich</p>
+            </div>}
+            showMenuIconButton={false}
+            iconStyleRight={{ marginRight: '0' }}
+            iconElementRight={
+              <div className="nav-buttons">
+                <FlatButton
+                  onTouchTap={this.handleTouchTap}
+                  label="Projects" />
+                <Popover
+                  open={this.state.open}
+                  anchorEl={this.state.anchorEl}
+                  anchorOrigin={this.state.anchorOrigin}
+                  targetOrigin={this.state.targetOrigin}
+                  onRequestClose={this.handleRequestClose}
+                >
+                  <Menu>
+                    <MenuItem href="#politikos" primaryText="Politikos" />
+                    <MenuItem href="#whether" primaryText="Whether" />
+                    <MenuItem href="#war" primaryText="War: The Card Game" />
+                  </Menu>
+                </Popover>
+                <FlatButton
+                  href="#contact"
+                  label="Contact" />
+              </div>
+            }
+          />
+        </div>
+      );
+    }
   }
 }
 
@@ -86,8 +138,8 @@ const styles = {
   appBar: {
     zIndex: '0',
     backgroundColor: 'white',
-    height: '90px',
-    padding: '10px 10px 0 0'
+    height: '75px',
+    padding: '10px 10px 0 3%',
   },
   img: {
     width: '100%',

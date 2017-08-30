@@ -4,6 +4,7 @@ import './Content.css';
 import Bio from './Bio';
 import Languages from './Languages';
 import Projects from './Projects';
+import Personal from './Personal';
 import Contact from './Contact';
 
 class Content extends Component {
@@ -13,6 +14,7 @@ class Content extends Component {
         <Bio />
         <Languages />
         <Projects />
+        <Personal />
         <Contact />
       </div>
     );

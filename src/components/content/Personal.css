@@ -1,0 +1,16 @@
+.personal-container > h1 {
+    text-align: center
+}
+
+.personal-container {
+    padding: 20px 3% 20px;
+    width: 100%;
+    border-bottom: thin solid gray;
+}
+
+.current {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}

@@ -16,7 +16,7 @@
 }
 
 .politikos-container {
-    padding: 50px 3%;
+    padding: 50px 3% 20px;
     width: 100%;
     text-align: center;
     border-bottom: thin solid gray;
@@ -73,7 +73,7 @@
 }
 
 .whether-container {
-    padding: 50px 3%;
+    padding: 50px 3% 20px;
     width: 100%;
     text-align: center;
     border-bottom: thin solid gray;
@@ -102,7 +102,7 @@
 }
 
 .war-container {
-    padding: 50px 3%;
+    padding: 50px 3% 20px;
     width: 100%;
     text-align: center;
     border-bottom: thin solid gray;
@@ -143,8 +143,7 @@
 
     .politikos-description {
         display: block;
-        margin: auto;
-        width: 75%;
+        width: 100%;
     }
 
     .politikos-title {
@@ -162,8 +161,7 @@
 
     .whether-description {
         display: block;
-        margin: auto;
-        width: 75%;
+        width: 100%;
     }
 
     .warImage-container {
@@ -173,7 +171,6 @@
 
     .war-description {
         display: block;
-        margin: auto;
-        width: 75%;
+        width: 100%;
     }
 }
