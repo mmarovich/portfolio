@@ -11,6 +11,13 @@
 .current {
     font-family: sans-serif;
     font-size: 15px;
-    /* font-weight: bold; */
     padding: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+    .current {
+        width: 70%;
+        min-width: 400px;
+        margin:auto;
+    }
 }
