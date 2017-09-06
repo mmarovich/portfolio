@@ -3,7 +3,7 @@
 }
 
 .personal-container {
-    padding: 20px 3% 20px;
+    /* padding: 20px 3% 20px; */
     width: 100%;
     border-bottom: thin solid gray;
 }
@@ -12,6 +12,10 @@
     font-family: sans-serif;
     font-size: 15px;
     padding: 10px;
+}
+
+.skills-used {
+    padding: 20px 0;
 }
 
 @media screen and (min-width: 1000px) {

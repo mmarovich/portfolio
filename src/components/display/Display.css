@@ -10,11 +10,10 @@
 }
 
 .image-container {
-    position: absolute;
-    bottom: 0;
-    height: 50%;
+    height: 100%;
     width: 100%;
-    text-align: right;
+    background-image: url(../../assets/images/PortfolioBanner.PNG);
+    background-size: cover;
 }
 
 .max {

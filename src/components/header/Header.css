@@ -9,7 +9,11 @@
     font-size: 30px;
 }
 
-.logo {
+.header {
+    border-top: 20px solid #333;
+}
+
+/* .logo {
 	position: absolute;
 	right: 50%;
     z-index: -1;
@@ -25,7 +29,7 @@
 		to { 
 			transform: scale(1.1) rotate(10deg);
 		}
-}
+} */
 
 @media screen and (max-width: 650px) {
     .title {

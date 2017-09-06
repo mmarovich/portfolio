@@ -22,17 +22,17 @@ export default class Projects extends Component {
                     </ScrollableAnchor>
                 </div>
 
-                <div className="politikos-container">
+                <div className="project-container">
                     <ScrollableAnchor id="politikos">
                         <div className="politikosImage-container">
                             <a href="https://politikos.herokuapp.com/">
-                                <img className="politikos-img" src={flag} />
+                                <img className="project-img" src={flag} />
                                 <h1 className="politikos-title">Politikos</h1>
                                 <p className="politikos-subtitle">Be involved, educate, and influence</p>
                             </a>
                         </div>
                     </ScrollableAnchor>
-                    <div className="politikos-description">
+                    <div className="project-description">
                         <div className="project-title"><h2>Politikos</h2></div>
                         <p>
                             Politikos is a project inspired by the current political climate in the world.
@@ -50,15 +50,15 @@ export default class Projects extends Component {
                     </div>
                 </div>
 
-                <div className="whether-container">
+                <div className="project-container">
                     <ScrollableAnchor id="whether">
-                        <div className="whetherImage-container">
+                        <div className="projectImage-container">
                             <a href="https://whetheryoulike.herokuapp.com/">
-                                <img className="whether-img" src={WhetherYouLike} />
+                                <img className="project-img" src={WhetherYouLike} />
                             </a>
                         </div>
                     </ScrollableAnchor>
-                    <div className="whether-description">
+                    <div className="project-description">
                         <div className="project-title"><h2>WhetherYouLike</h2></div>
                         <p>
                             WhetherYouLike was a project that I started with the simple task of displaying both
@@ -76,15 +76,15 @@ export default class Projects extends Component {
                         <p className="skills-used">Libraries & APIs: Weather Underground API, Google Geocoding API, Material UI</p>
                     </div>
                 </div>
-                <div className="war-container">
+                <div className="project-container">
                     <ScrollableAnchor id="war">
-                        <div className="warImage-container">
+                        <div className="projectImage-container">
                             <a href="https://mmarovich.github.io/war/">
-                                <img className="war-img" src={war} />
+                                <img className="project-img" src={war} />
                             </a>
                         </div>
                     </ScrollableAnchor>
-                    <div className="war-description">
+                    <div className="project-description">
                         <div className="project-title"><h2>War!</h2></div>
                         <p>
                             This is one of my first projects during the very beginning of learning javascript.

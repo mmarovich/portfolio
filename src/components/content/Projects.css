@@ -12,14 +12,7 @@
 
 .project-title > h2 {
     font-size: 30px;
-    margin: 0 0 15px 0;
-}
-
-.politikos-container {
-    padding: 50px 3% 20px;
-    width: 100%;
-    text-align: center;
-    border-bottom: thin solid gray;
+    margin: 20px 0 15px;
 }
 
 .politikosImage-container {
@@ -51,18 +44,13 @@
     mix-blend-mode: difference;
 }
 
-.politikosImage-container > img {
-    display: inline-block;
-    width: 70%;
-}
-
-.politikos-img {
+.project-img {
     margin: auto;
     width: 100%;
     height: 100%;
 }
 
-.politikos-description {
+.project-description {
     display: inline-block;
     vertical-align: top;
     width: 30%;
@@ -72,60 +60,16 @@
     text-align: left;
 }
 
-.whether-container {
-    padding: 50px 3% 20px;
+.project-container {
+    padding: 50px 3% 30px;
     width: 100%;
     text-align: center;
     border-bottom: thin solid gray;
 }
 
-.whetherImage-container {
+.projectImage-container {
     display: inline-block;
     width: 70%;
-}
-
-.whether-img {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-}
-
-.whether-description {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    font-family: sans-serif;
-    font-size: 15px;
-    padding: 10px;
-    text-align: left;
-}
-
-.war-container {
-    padding: 50px 3% 20px;
-    width: 100%;
-    text-align: center;
-    border-bottom: thin solid gray;
-}
-
-.warImage-container {
-    display: inline-block;
-    width: 70%;
-}
-
-.war-img {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-}
-
-.war-description {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    font-family: sans-serif;
-    font-size: 15px;
-    padding: 10px;
-    text-align: left;
 }
 
 .skills-used {
@@ -139,7 +83,7 @@
         width: 100%;
     }
 
-    .politikos-description {
+    .project-description {
         display: block;
         width: 100%;
     }
@@ -152,23 +96,14 @@
         font-size: 25px;
     }
     
-    .whetherImage-container {
+    .projectImage-container {
         display: inline-block;
         width: 70%;
     }
+}
 
-    .whether-description {
-        display: block;
-        width: 100%;
-    }
-
-    .warImage-container {
-        display: block;
-        width: 100%;
-    }
-
-    .war-description {
-        display: block;
-        width: 100%;
+@media screen and (min-width: 900px) {
+    .project-title > h2 {
+        margin: 0 0 15px 0;
     }
 }

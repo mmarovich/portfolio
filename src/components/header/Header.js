@@ -8,7 +8,6 @@ import Popover from 'material-ui/Popover/Popover';
 // import TiThMenu from 'react-icons/lib/ti/th-menu'
 
 import './Header.css'
-import logo from '../../assets/images/logo.svg'
 
 class Header extends Component {
   constructor(props) {

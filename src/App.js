@@ -35,7 +35,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <img src={this.state.width < 650 ? backgroundSmall : background} className="background" />
         <Header />
         <Display />
         <Content />

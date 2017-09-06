@@ -1,11 +1,5 @@
 .App {
   position: relative;
-  font-family: 'Chonburi', cursive;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
 
 .App > img {
@@ -15,12 +9,6 @@
   top: 75px;
   z-index: -4;
 }
-
-
-/* @keyframes Background-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-} */
 
 
 .App-header {

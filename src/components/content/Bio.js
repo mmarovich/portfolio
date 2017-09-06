@@ -15,8 +15,8 @@ class Bio extends Component {
                     <div className="introduction">
                         <p>Welcome to my website! I'm proud to say that
                         I spent several months completing
-                        the full-stack web development program at 
-                        <a href="http://www.thinkful.com"> Thinkful.</a> They have given me the opportunity
+                        the full-stack web development program 
+                        at <a href="http://www.thinkful.com">Thinkful.</a> They have given me the opportunity
                         to advance in a field that I truly love.  My goal
                         as a web developer is to continue to grow beyond what
                         I already know.  Actually, this is a mantra for life.
