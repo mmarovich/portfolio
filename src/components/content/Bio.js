@@ -7,18 +7,15 @@ class Bio extends Component {
     render() {
         return (
             <div className="bio">
-                {/* <div className="image-container">
-                    <img className="max" src={portfolio.image} />
-                </div> */}
 
                 <div className="introduction-container">
                     <div className="introduction">
                         <p>Welcome to my website! A year ago I started on a journey
                         to be the most competent web developer I can be.  I have had
                         the opportunity to work with so many amazing individuals to
-                        find solutions to full-stack coding problems. I have been able
-                        to advance in a field that I truly love.  My goal
-                        as a web developer is to continue to grow beyond what
+                        find solutions to full-stack coding problems, and with those
+                        experiences been able to advance in a field that I truly love.  
+                        My goal as a web developer is to continue to grow beyond what
                         I already know.  Actually, this is a mantra for life.
                     </p>
                         <p>I have experience in the healthcare, teaching, music, and
