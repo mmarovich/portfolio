@@ -32,18 +32,22 @@ export default class Projects extends Component {
                             </a>
                         </div>
                     </ScrollableAnchor>
-                    <div className="project-description">
+                    <div className="politikos-description">
                         <div className="project-title"><h2>Politikos</h2></div>
                         <p>
-                            Politikos is a project inspired by the current political climate in the world.
-                            With an objective to create more informed citizens with an emphasis on fact-checking,
-                            this project is just at its infancy, but has the potential to blossom into something
-                            so much more.
+                            Politikos is a social fact-checking network for political discussion developed with 
+                            an emphasis on accurate and meaningful conversation.
+                        </p>
+                        <p>
+                            My focus on this project was to extend my skills as a backend developer. Utilizing Node, 
+                            MongoDB, and learning about backend algorithm and usage, I was able to push my full stack 
+                            development abilities through development of this CRUD application. Future features of this 
+                            app will help guide users into meaningful discourse through algorithmic backend techniques.
                         </p>
                         <p>
                             After signing up and logging in, you will have the opportunity to find who your
                             representatives are, and collaborate with others about their actions.  In the future
-                            I want to create features for tracking, anticipating, and influencing their actions.
+                            this has the potential for tracking, anticipating, and influencing their actions.
                         </p>
                         <p className="skills-used">Skills used: React.js, Node.js, Typescript</p>
                         <p className="skills-used">Libraries & APIs: Google Civics and Geocoding API, Material UI</p>
